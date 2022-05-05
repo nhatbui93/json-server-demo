@@ -1,0 +1,27 @@
+{
+  "name": "json_server_demo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "generate-data": "node generate-data.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "Nhat-Bui",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "casual": "^1.6.2",
+    "faker": "^5.5.3",
+    "query-string": "^7.1.1"
+  },
+  "description": ""
+}
